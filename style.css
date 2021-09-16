@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    background-image: url(images/background.jpg);
+    width: 100vu;
+    height:auto;
+}
+@media screen and (min-width:1040px){
+    .home{
+        margin: 0% 20%;
+    }
+    
+}
+@media screen and (max-width:1040px){
+    .btn-group, .home-container{
+       margin-left: 5%;
+    }
+}
+@media screen and (max-width:699px){
+    #zippy-photo{
+        height: 250px;
+        width: 353px;
+    }
+    .navigtion-carousel{
+        margin: 0% 8%;
+    }
+    .input-group{
+        margin-left: 2%;
+    }
+    .signup-btn{
+        float: right;
+        margin-right: 7%;
+    }
+    .contact-form{
+        width: 100vw;
+    }
+   
+}
+@media screen and (min-width:700px){
+.vl {
+    border-left: 2px solid rgb(209, 208, 208);;
+    height: 170px;
+  
+  }
+  .map-div{
+    width: 50vw;
+  }
+  .contact-form{
+      width: 50vw;
+  }
+  .signup-btn{
+    margin-left: 17%;
+}
+  #zippy-photo{
+    height: 350px;
+    width: 500px;
+}
+.input-group{
+    margin-left: 30%;
+}
+.navigtion-carousel{
+    margin: 0vw 30vw;
+}
+}
+.home{
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: smaller;
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: rgb(218, 189, 59);
+}
+.home p{
+   font-weight: normal;
+   padding-right: 10%;
+   color: rgb(209, 208, 208);
+}
+.home-container{
+    justify-content: center;
+   margin-top: 10%;
+   margin-right: 40%; 
+    
+}
+.btn-group, .home-container{
+    padding-left: 4%;
+}
+.btn1, .btn2, .project-btn, .pricing-btn,.login-btn,.signup-btn,.blog-btn3,.blog-btn2,.blog-btn1{
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.btn1,.btn2{
+    margin-bottom: 40%;
+}
+.btn1,.pricing-btn2, .pricing-btn3,.login-btn,.blog-btn1{
+    color: black;
+    background-color: rgb(218, 189, 59);
+}
+.btn1:hover, .pricing-btn2:hover, .pricing-btn3:hover, .login-btn:hover,.blog-btn1:hover{
+    color: white;
+}
+.btn2:hover, .pricing-btn1:hover,.signup-btn:hover{
+    color: rgb(12, 12, 12);
+}
+.btn2,.pricing-btn1,.signup-btn{
+    color: white;
+    background-color: rgb(85, 22, 114);
+}
+.main-container{
+    text-align: center;
+    
+}
+.row{
+    justify-content: center;
+    
+}
+.main-container h2{
+    margin: 3% 0%;
+    font-weight: bold;
+}
+.umberalla-content{
+    display: block;
+    align-items: center;
+   padding-left: 5%;
+    text-align: left;
+    width: 70vh;
+}
+.umberalla-icon{
+    width: 250px;
+  
+    position: relative;
+}
+.umberalla-icon::after{
+    position:absolute;
+}
+.umberalla, .icon-container p{
+    color: #808080;
+}
+.icon-div,#blog{
+    align-items: center;
+    text-align: center;
+    
+    height: auto;
+}
+
+.icon-container{
+    box-sizing: content-box;
+    justify-content: center;
+    width:30vh ;
+    height:50vh ;
+    padding: 10px;
+   margin: 10px;
+}
+
+.icon{
+    border-radius: 100%;
+   background-color:rgb(85, 22, 114) ;
+   padding: 4%;
+}
+.icon-container h6{
+    font-weight: bold;
+    color: rgb(85, 22, 114);
+    margin: 10%;
+    font-size: 0.9rem;
+}
+.main-container hr{
+    margin-top: 30px;
+margin-left: 25%;
+}
+#projects h3{
+    text-align: center;
+    margin: 35px 0px;
+    
+    font-weight: 700;
+}
+.project-content{
+    box-sizing: content-box;
+    padding: 30px;
+    font-size: .8rem;
+    
+}
+.project-content p{
+    color: #808080;;
+}
+.project-content h6{
+    font-weight: bold;
+}
+.div1, .div2, .div3, .div4{
+    width: 320px;
+    height:500px ;
+    
+   
+}
+.div1 .project-content{
+    background-color: rgb(236, 234, 234);
+}
+.div2 .project-content{
+    background-color: rgb(218, 189, 59);
+}
+.div3 .project-content{
+    background-color: rgb(243, 236, 236);
+}
+.div4 .project-content{
+    background-color: rgb(221, 219, 219);
+}
+.div1 .project-btn, .div3 .project-btn, .div4 .project-btn{
+    background-color: white;
+}
+.div2 .project-btn{
+    background-color:rgb(85, 22, 114) ;
+    color: rgb(151, 140, 140);
+}
+.div1:hover, .div3:hover, .div2:hover, .div4:hover{
+    transform: scale(1.025);
+}
+#pricing{
+    justify-content: center;
+    text-align: center;
+    
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+#pricing h3, #pricing h6{
+    font-weight: bolder;
+}
+#pricing h6{
+    font-size: 0.85rem;
+}
+#pricing h3{
+    margin-bottom: 30px;
+   
+}
+.pricing-btn{
+    padding:5px 25px;
+    margin-bottom: 7%;
+}
+#pricing p{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.header p{
+    color:#a1a1a1 ;
+}
+#video{
+   padding-bottom: 5%;
+    background-color:rgb(85, 22, 114) ;
+   
+}
+#video h3{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.videos{
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.video1, .video2, .video3{
+    padding: 10px;
+}
+iframe{
+    border: none;
+    
+}
+#zippy-team{
+    text-align: center;
+}
+#zippy-team h3{
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.profile{
+    position:relative;
+    margin: 20px;
+}
+.profile-img img{
+    border-radius: 100%;
+    transition: transform 1s;  
+}
+.profiles{
+    padding: 0 30%;
+}
+.profile h6{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.profile p{
+    font-size: 0.8rem;
+    color: rgb(197, 196, 196);
+    font-weight: bold;
+}
+.profile-img{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+.profile .profile-content{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:50%;
+    padding:50% 4%;
+    border-radius: 100%;
+   
+}
+
+.profile .profile-content:hover{
+    background-color: rgba(65, 5, 105, 0.7);
+   
+}
+.profile:hover .profile-img img{
+    opacity: 0.5;
+}
+.social-link{
+    list-style: none;
+    
+}
+.social-link li{
+   
+    opacity: 0;
+    display: inline;
+
+}
+.profile-content:hover .social-link li{
+    opacity: 1;
+}
+
+.life-in-zippy{
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+    padding-bottom: 5%;
+  
+}
+.life-in-zippy h3{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-weight: bolder;
+}
+.item{
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+#owl-demo .item{
+    color: #FFF;
+   
+    text-align: center;
+    
+  }
+ #newsletter{
+     background-image: url(images/newspaper-background.jpg);
+    
+     background-repeat: no-repeat;
+     text-align: center;
+    
+    
+     padding-top: 30px;
+     padding-bottom: 50px;
+ } 
+ 
+ .input-group{
+  
+    width:400px;
+ }
+ 
+ #newsletter h3{
+     color: white;
+    padding-bottom: 2%;
+    
+ }
+
+.login-btn:hover{
+    background-color: rgb(218, 189, 59);;
+}
+.blog-image{
+    width: 200px;
+    height: 100px;
+}
+#blog h3,.blog-container h6{
+    padding: 20px 0px;
+    font-weight: bolder;
+   
+}
+
+.blog-container h6{
+    margin: 10px;
+}
+.date{
+    color: rgb(209, 208, 208);
+}
+.blog-div{
+   margin: 0 10%;
+ 
+}
+.blog-btn3,.blog-btn2,.blog-btn1{
+    margin-bottom: 10%;
+}
+.blog-btn3,.blog-btn2{
+    background-color: rgb(236, 234, 234);
+
+}
+.blog-btn2:hover,.blog-btn3:hover{
+    color:rgb(99, 97, 97);
+}
+
+.contact-form{
+    background-color: rgb(218, 189, 59);
+    padding: 15px 30px 15px;
+   
+}
+.contact-form form .btn {
+    width: 50%;
+    background-color: rgb(85, 22, 114);
+    font-weight: bold;
+    font-size: small;
+    border-radius: 0%;
+    border: none;
+}
+.contact-form form .btn:hover{
+    color: black;
+}
+.contact-form .form-header h2 {
+    font-weight: bold;
+    text-align: left;
+
+}
+.contact-form p{
+    font-size: small;
+    font-weight: bolder;
+    margin: 1%;
+}
+.contact-form input,.contact-form textarea{
+    width: 50%;
+    border-radius: 0%;
+    border: none;
+}
+.contact-form textarea{
+    resize: none;
+    
+}
+.footer-container{
+   
+    margin:5% 2%;
+    text-align: center;
+    width: 150px;
+}
+.footer-container h6{
+    font-weight: bolder;
+    font-size: .7rem;
+}
+.footer-container p{
+    font-size: .8rem;
+    margin: 0%;
+    font-weight: 500;
+}
+.follow-us img{
+    padding: 0 10px;
+}
